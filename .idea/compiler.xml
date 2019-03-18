@@ -16,6 +16,8 @@
       <module name="ServiceProvide_test" target="1.8" />
       <module name="springBootForGradle-RegisterCenter_main" target="1.8" />
       <module name="springBootForGradle-RegisterCenter_test" target="1.8" />
+      <module name="springBootForGradle-Server_main" target="1.8" />
+      <module name="springBootForGradle-Server_test" target="1.8" />
       <module name="springBootForGradle_main" target="1.8" />
       <module name="springBootForGradle_test" target="1.8" />
     </bytecodeTargetLevel>

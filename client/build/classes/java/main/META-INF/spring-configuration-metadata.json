@@ -1,0 +1,35 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.xy.security.SecuritySetting",
+      "name": "securityconfig",
+      "type": "com.xy.security.SecuritySetting"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.xy.security.SecuritySetting",
+      "defaultValue": "\/deny",
+      "name": "securityconfig.denied-page",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.xy.security.SecuritySetting",
+      "defaultValue": "\/logOut",
+      "name": "securityconfig.login-success-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.xy.security.SecuritySetting",
+      "defaultValue": "\/login,\/user\/login.do",
+      "name": "securityconfig.permit-all",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.xy.security.SecuritySetting",
+      "name": "securityconfig.user-roles",
+      "type": "java.lang.String"
+    }
+  ]
+}

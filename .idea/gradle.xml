@@ -4,11 +4,21 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/ServiceCustom" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ServiceProvide" />
         <option name="gradleHome" value="G:/tools/gradle-4.6" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/ServiceCustom" />
+            <option value="$PROJECT_DIR$/ServiceProvide" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/center" />
+        <option name="gradleHome" value="G:/tools/gradle-4.6" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/center" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -19,28 +29,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/client" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/gradle" />
-        <option name="gradleHome" value="G:/tools/gradle-4.6" />
-        <option name="gradleJvm" value="1.8" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/gradle" />
-          </set>
-        </option>
-        <option name="useAutoImport" value="true" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/mweb" />
-        <option name="gradleHome" value="G:/tools/gradle-4.6" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/mweb" />
           </set>
         </option>
       </GradleProjectSettings>
