@@ -37,8 +37,8 @@ public class UserController {
 //        User user = new User();
 //        user.setName("徐跃");
 //        userService.addUser(user);
-        System.out.println("hello");
-        return "hello";
+
+        return userService.sayHello();
     }
 
 

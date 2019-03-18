@@ -4,10 +4,13 @@ import com.xy.dao.UserRepository;
 import com.xy.model.User;
 import com.xy.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 
 /**
  * @author xuyue_2017@csii.com.cn
@@ -45,4 +48,34 @@ public class UserServiceImpl implements UserService, UserDetailsService {
         }
         return null;
     }
+
+    @Autowired
+    private RestTemplate restTemplate;
+    @Autowired
+    private LoadBalancerClient loadBalanced;
+
+    public RestTemplate getRestTemplate() {
+        return restTemplate;
+    }
+
+    public void setRestTemplate(RestTemplate restTemplate) {
+        this.restTemplate = restTemplate;
+    }
+
+    public LoadBalancerClient getLoadBalanced() {
+        return loadBalanced;
+    }
+
+    public void setLoadBalanced(LoadBalancerClient loadBalanced) {
+        this.loadBalanced = loadBalanced;
+    }
+
+    @Override
+    public String sayHello() {
+        ServiceInstance sayHello = loadBalanced.choose("sayHelloServer");
+        System.out.println("消费方调用服务");
+        return restTemplate.getForObject("http://sayHelloServer/user/hello.do", String.class);
+    }
+
+
 }

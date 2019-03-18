@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Client.iml" filepath="$PROJECT_DIR$/.idea/modules/Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Client_main.iml" group="Client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Client_test.iml" group="Client" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RegisterCenter.iml" filepath="$PROJECT_DIR$/.idea/modules/RegisterCenter.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RegisterCenter_main.iml" filepath="$PROJECT_DIR$/.idea/modules/RegisterCenter_main.iml" group="RegisterCenter" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RegisterCenter_test.iml" filepath="$PROJECT_DIR$/.idea/modules/RegisterCenter_test.iml" group="RegisterCenter" />
-      <module fileurl="file://$PROJECT_DIR$/ServiceCustom/ServiceCustom.iml" filepath="$PROJECT_DIR$/ServiceCustom/ServiceCustom.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ServiceCustom_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ServiceCustom_main.iml" group="ServiceCustom" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ServiceCustom_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ServiceCustom_test.iml" group="ServiceCustom" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server.iml" filepath="$PROJECT_DIR$/.idea/modules/Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Server_main.iml" group="Server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Server_test.iml" group="Server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ServiceProvide.iml" filepath="$PROJECT_DIR$/.idea/modules/ServiceProvide.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ServiceProvide_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ServiceProvide_main.iml" group="ServiceProvide" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ServiceProvide_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ServiceProvide_test.iml" group="ServiceProvide" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springBootForGradle.iml" filepath="$PROJECT_DIR$/.idea/modules/springBootForGradle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springBootForGradle_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springBootForGradle_main.iml" group="springBootForGradle" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springBootForGradle_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springBootForGradle_test.iml" group="springBootForGradle" />
     </modules>
   </component>
 </project>

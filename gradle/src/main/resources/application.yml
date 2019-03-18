@@ -19,7 +19,7 @@ spring:
     content-type: text/html
     cache: false
   application:
-    name: sayHelloServer
+    name: sayHelloClient
 securityconfig:
   loginSuccessUrl: /
   permitAll: /login,/user/login.do
@@ -36,4 +36,7 @@ eureka:
     fetch-registry: true
     serviceUrl:
       defaultZone: http://peer2:2222/eureka/,http://peer1:1111/eureka/
+sayHelloServer:
+  ribbon:
+    NFLoadBanlancerRuleClassName: com.netflix.loadbalancer.RandomRule
 

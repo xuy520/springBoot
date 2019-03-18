@@ -1,9 +1,8 @@
 package com.controller;
 
-import com.service.HelloService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * @author xuyue_2017@csii.com.cn
@@ -17,20 +16,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/user")
 public class HelloController {
-    @Autowired
-    private HelloService helloService;
-
-    public HelloService getHelloService() {
-        return helloService;
-    }
-
-    public void setHelloService(HelloService helloService) {
-        this.helloService = helloService;
-    }
 
     @RequestMapping("/hello.do")
-    public String deny() {
-
-        return helloService.sayHello();
+    @ResponseBody
+    public String hello() {
+        System.out.println("服务方提供服务调用");
+        return "hello";
     }
 }

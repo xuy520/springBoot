@@ -8,6 +8,8 @@
       <module name="mweb_test" target="1.8" />
       <module name="RegisterCenter_main" target="1.8" />
       <module name="RegisterCenter_test" target="1.8" />
+      <module name="Server_main" target="1.8" />
+      <module name="Server_test" target="1.8" />
       <module name="ServiceCustom_main" target="1.8" />
       <module name="ServiceCustom_test" target="1.8" />
       <module name="ServiceProvide_main" target="1.8" />
