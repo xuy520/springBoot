@@ -34,10 +34,6 @@ public class UserController {
     @RequestMapping("/userAdd.do")
     @ResponseBody
     public String addUser() {
-//        User user = new User();
-//        user.setName("徐跃");
-//        userService.addUser(user);
-
         return userService.sayHello();
     }
 
