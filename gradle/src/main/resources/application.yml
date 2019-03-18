@@ -18,8 +18,22 @@ spring:
     encoding: UTF-8
     content-type: text/html
     cache: false
+  application:
+    name: sayHelloServer
 securityconfig:
   loginSuccessUrl: /
   permitAll: /login,/user/login.do
   deniedPage: /user/deny.do
   userRoles: /*/*Add.do = admin
+server:
+  port: 8888
+  sessionTimeout: 15
+  tomcat:
+    max-threads: 800
+    uri-encoding: UTF-8
+eureka:
+  client:
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://peer2:2222/eureka/,http://peer1:1111/eureka/
+

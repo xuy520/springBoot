@@ -32,12 +32,13 @@ public class UserController {
     }
 
     @RequestMapping("/userAdd.do")
+    @ResponseBody
     public String addUser() {
 //        User user = new User();
 //        user.setName("徐跃");
 //        userService.addUser(user);
         System.out.println("hello");
-        return "/user/userList";
+        return "hello";
     }
 
 

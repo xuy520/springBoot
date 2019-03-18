@@ -2,6 +2,7 @@ package com.xy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -12,12 +13,12 @@ import org.springframework.web.bind.annotation.RestController;
  * Copyright (c) CSII.
  * All Rights Reserved.
  */
-
+@EnableEurekaClient
 @SpringBootApplication
 @RestController
 public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class,args);
+        SpringApplication.run(Application.class, args);
     }
 }

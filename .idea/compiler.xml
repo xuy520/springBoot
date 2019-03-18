@@ -2,6 +2,18 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="Client_main" target="1.8" />
+      <module name="Client_test" target="1.8" />
+      <module name="mweb_main" target="1.8" />
+      <module name="mweb_test" target="1.8" />
+      <module name="RegisterCenter_main" target="1.8" />
+      <module name="RegisterCenter_test" target="1.8" />
+      <module name="ServiceCustom_main" target="1.8" />
+      <module name="ServiceCustom_test" target="1.8" />
+      <module name="ServiceProvide_main" target="1.8" />
+      <module name="ServiceProvide_test" target="1.8" />
+      <module name="springBootForGradle-RegisterCenter_main" target="1.8" />
+      <module name="springBootForGradle-RegisterCenter_test" target="1.8" />
       <module name="springBootForGradle_main" target="1.8" />
       <module name="springBootForGradle_test" target="1.8" />
     </bytecodeTargetLevel>

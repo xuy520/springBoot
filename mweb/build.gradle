@@ -4,7 +4,7 @@ version '1.0-SNAPSHOT'
 
 buildscript {
     ext {
-        springBootVersion = '1.5.2.RELEASE'
+        springBootVersion = '1.5.1.RELEASE'
     }
     repositories {
         jcenter {url 'http://jcenter.bintray.com/'}
@@ -50,5 +50,5 @@ dependencies {
 
 
 springBoot {
-    mainClass = "controller.ServerController"
+    mainClass = "com.controller.ServerController"
 }
