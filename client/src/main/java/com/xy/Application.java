@@ -1,23 +1,23 @@
-package com.controller;
-
+package com.xy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author xuyue_2017@csii.com.cn
- * @ClassName: ClientController
+ * @ClassName: com.xy.Application
  * @Description:
- * @date 2018/12/13 20:45
+ * @date 2019/1/15 19:38
  * Copyright (c) CSII.
  * All Rights Reserved.
  */
 @EnableEurekaClient
 @SpringBootApplication
-public class ClientController {
-    public static void main(String[] args) {
-        SpringApplication.run(ClientController.class, args);
-    }
+public class Application {
 
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+    }
 }
